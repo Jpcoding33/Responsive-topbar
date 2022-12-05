@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topbar Using Flex Properties</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3d9671901c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="topbar">
+        <nav>
+            <div id="left-menu">
+                <p id="logo">JPdesign</p>
+                <p class="menu-items">Home</p>
+                <p class="menu-items">Projects</p>
+                <p class="menu-items">Contact Us</p>
+            </div>
+            <div id="right-menu">
+                <div id="search-container">
+                    <input placeholder="search" type="text" id="search-box">
+                    <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <i id="notification-icon" class="fa-solid fa-bell"></i>
+                <i id="profile-pic" class="fa-solid fa-user"></i>
+            </div>
+            <i id="menu-btn" class="fa-sharp fa-solid fa-bars fa-2x"></i>
+        </nav>
+        <nav id="mobile-menu">
+            <div class="res-menu">
+                <div class="res-menu-items" id="res-search-container">
+                    <input placeholder="search" type="text" id="res-search-box">
+                    <i id="res-search-icon" class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <p class="res-menu-items">Home</p>
+                <p class="res-menu-items">Projects</p>
+                <p class="res-menu-items">Contact Us</p>
+                <div class="notification res-menu-items">
+                    <p>Notification</p>
+                    <i id="res-notification-icon" class="fa-solid fa-bell"></i>
+                </div>
+                <div class="profile res-menu-items">
+                    <p>Profile</p>
+                    <i id="res-profile-icon" class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="./js/topbar.js"></script>
+</body>
+
+</html>
